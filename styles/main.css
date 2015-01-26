@@ -30,10 +30,12 @@ body {
 
 a {
   color: #00e;
+
 }
 
 a:visited {
   color: #551a8b;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -170,7 +172,7 @@ textarea[contenteditable] {
    Theses examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 800px) {/*codice per schermi più picooli di 800px*/
   /* Style adjustments for viewports that meet the condition */
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
@@ -2296,6 +2298,7 @@ h4 {
   padding-top: 1.6250em;
   padding-bottom: 0;
 }
+
 @media only screen and (min-width: 800px) {
   .medium,
   h4 {
@@ -3705,11 +3708,6 @@ body {
   background-color: #fff;
   box-sizing: border-box;
   min-height: 100%;
-}
-
-.body-special{
-  background:url(
-  data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAG0lEQVQYlWNgwAT/sYgRBTA0DkaTyDaMziYBAFuwCvZx+Kq1AAAAAElFTkSuQmCC   ) repeat;
 }
 
 body.open {
