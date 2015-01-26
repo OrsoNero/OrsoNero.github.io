@@ -3706,7 +3706,7 @@ body {
   box-sizing: border-box;
   min-height: 100%;
 }
-body{
+.body-special{
   background:url(
   data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAG0lEQVQYlWNgwAT/sYgRBTA0DkaTyDaMziYBAFuwCvZx+Kq1AAAAAElFTkSuQmCC   ) repeat;
 }
