@@ -3706,6 +3706,10 @@ body {
   box-sizing: border-box;
   min-height: 100%;
 }
+body{
+  background:url(
+  data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAG0lEQVQYlWNgwAT/sYgRBTA0DkaTyDaMziYBAFuwCvZx+Kq1AAAAAElFTkSuQmCC   ) repeat;
+}
 
 body.open {
   overflow: hidden;
@@ -3776,12 +3780,12 @@ body.open {
   width: 60px;
   height: 60px;
   background-image: none;
-  background-color: transparent;
+  background-color: #484848;
   border: none;
   padding: 0;
   display: inline-block;
-  -webkit-transition: background-color 10s ease-out;
-  transition: background-color 10s ease-out;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -3791,16 +3795,16 @@ body.open {
 }
 
 .app-bar button:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .app-bar button:focus {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.5);
   outline: 0;
 }
 
 .app-bar button:active {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .promote-layer {
